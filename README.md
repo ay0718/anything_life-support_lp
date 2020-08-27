@@ -26,7 +26,7 @@ https://kazuhj.github.io/sample-LP/
 - Lightboxを使用した画像の拡大表示
 - inviewを使用した画面スクロールによるアニメーション表示
 
-##使用技術
+## 使用技術
 
 ### ◼️言語
 - HTML
@@ -37,7 +37,7 @@ https://kazuhj.github.io/sample-LP/
 - Webフォント
 - jQuery
 
- ### Other
+ ### ◼️Other
  - Lightbox
  - inview
  
