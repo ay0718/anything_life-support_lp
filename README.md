@@ -6,7 +6,7 @@ HTML+Scss+jqueryにてレスポンシブ対応のサンプルサイトを作成�
 https://qiita.com/Y_ASAMOTO/items/d5f33ecf5bfbb7f028a5
 
 ## デモ
-以下のURLから確認いただけます。（本番環境でレスポンシブが反映されない原因は調査中です。）
+以下のURLから確認いただけます。
 <br>
 https://kazuhj.github.io/sample-LP/
 
