@@ -2,6 +2,18 @@
   padding: 100px 20%;
 }
 
+@media (max-width: 1280px) {
+  .about, .point, .gallery, .price, .cta {
+    padding: 80px 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .about, .point, .gallery, .price, .cta {
+    padding: 80px 5%;
+  }
+}
+
 html, body {
   font-family: 'Noto Sans JP', sans-serif;
 }
@@ -54,6 +66,12 @@ section {
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .hero p {
+    line-height: 1.5;
+  }
+}
+
 .hero a {
   background-color: #fff;
   color: #FF6B95;
@@ -67,6 +85,12 @@ section {
   border: 2px solid #fff;
   display: inline-block;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .hero a {
+    display: block;
+  }
 }
 
 .hero a::after {
@@ -103,6 +127,12 @@ section {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .about__image {
+    width: 100%;
+  }
+}
+
 .about__image img {
   width: 100%;
   height: auto;
@@ -112,11 +142,23 @@ section {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .about__text {
+    width: 100%;
+  }
+}
+
 .about__text p {
   line-height: 2;
   margin-left: 50px;
   font-size: 18px;
   font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .about__text p {
+    margin: 20px 0 0;
+  }
 }
 
 .point {
@@ -139,6 +181,15 @@ section {
 
 .point__item:not(:first-child) {
   margin-left: 21px;
+}
+
+@media (max-width: 768px) {
+  .point__item {
+    width: 100%;
+  }
+  .point__item:not(:first-child) {
+    margin: 30px 0 0;
+  }
 }
 
 .point__item i {
@@ -284,6 +335,12 @@ section {
   transition: .5s;
   border: 2px solid #fff;
   position: relative;
+}
+
+@media (max-width: 768px) {
+  .cta__btn a {
+    display: block;
+  }
 }
 
 .cta__btn a:after {
